@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "rubik", sans-serif;
+}
+
+/* -----------------Hero------------------------ */
+.hero {
+    background-color: #1f2937;
+    padding: 0 16%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f9faf8;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 0;
+}
+
+.hero-left {
+    width: 37%;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.hero-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-left button {
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.hero-right {
+    width: 50%;
+}
+
+.hero-right div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #6D737C;
+    height: 250px;
+    color: #f9faf8;
+}
+
+/* ---------------------information----------------------- */
